@@ -4,7 +4,6 @@ from selenium import webdriver
 import unittest
 import time
 
-
 class Test2(unittest.TestCase):
     def setUp(self):
         self.driver = webdriver.Firefox()

@@ -5,7 +5,6 @@ from selenium.webdriver.common.action_chains import ActionChains
 import unittest
 import time
 
-
 class Test1(unittest.TestCase):
     def setUp(self):
         self.driver = webdriver.Firefox()
