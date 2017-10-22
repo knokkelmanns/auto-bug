@@ -5,7 +5,7 @@ from double_click_to_tab import Test1
 from check_the_box import Test2
 
 
-tests_classes=[
+tests_classes = [
     Test1,
     Test2,
 ]
