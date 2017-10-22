@@ -47,7 +47,7 @@ class Test2(unittest.TestCase):
         time.sleep(3)
 
         # create screenshot
-        driver.save_screenshot('image/UnCheckTheBox.png')
+        driver.save_screenshot('UnCheckTheBox.png')
 
         # checked checkbox
         wait = WebDriverWait(driver, 10)
@@ -66,7 +66,7 @@ class Test2(unittest.TestCase):
         time.sleep(3)
 
         # create screenshot
-        driver.save_screenshot('image/CheckTheBox.png')
+        driver.save_screenshot('CheckTheBox.png')
 
     def tearDown(self):
         self.driver.quit()

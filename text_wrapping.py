@@ -29,7 +29,7 @@ class Test3(unittest.TestCase):
         time.sleep(3)
 
         # create screenshot
-        driver.save_screenshot('image/TestWrapping.png')
+        driver.save_screenshot('TestWrapping.png')
 
 
     def tearDown(self):

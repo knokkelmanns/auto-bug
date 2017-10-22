@@ -31,7 +31,7 @@ class Test1(unittest.TestCase):
         time.sleep(3)
 
         # create screenshot
-        driver.save_screenshot('image/DoubleClickToTab.png')
+        driver.save_screenshot('DoubleClickToTab.png')
 
     def tearDown(self):
         self.driver.quit()
