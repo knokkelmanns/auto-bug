@@ -10,6 +10,6 @@
 8. Run run.py
 9. Look reports (screenshots) in folder - auto-bug
 
-Test double_click_to_tab.py corresponds to test 2 from the table /n
+Test double_click_to_tab.py corresponds to test 2 from the table <br>
 Test check_the_box.py corresponds to test 11 from the table
 Test text_wrapping.py corresponds to test 17 from the table
