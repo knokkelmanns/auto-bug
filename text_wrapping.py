@@ -8,8 +8,7 @@ import time
 class Test3(unittest.TestCase):
     def setUp(self):
         self.driver = webdriver.Firefox()
-        #self.driver.set_window_size(1920, 1080)
-        #self.driver.maximize_window()
+        self.driver.set_window_size(1920, 1080)
         self.driver.implicitly_wait(30)
         self.base_url = "http://blog.csssr.ru/qa-engineer/"
         self.verificationErrors = []
