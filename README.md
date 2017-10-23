@@ -6,7 +6,7 @@
 4. Install Mozilla Firefox 55.x or higer
 5. Download Geckodriver 0.19.0 (https://github.com/mozilla/geckodriver/releases) and put in a folder auto-bug
 6. Open files: run.py, double_click_to_tab.py, check_the_box.py and text_wrapping.py
-7. Install all necessary python packages
+7. Install all necessary python packages if they are not already installed (selenium, xmlrunner)
 8. Run file run.py
 9. Look reports (screenshots) in folder - auto-bug
 
